@@ -17,7 +17,7 @@
     # for the full list
     'category': 'Service Desk/Service Desk',
     'application': True,
-    'version': '15.1.5',
+    'version': '0.1.6',
 
     # any module necessary for this one to work correctly
     'depends': ['base', 'web','hr', ],

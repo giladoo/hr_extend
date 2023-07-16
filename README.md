@@ -20,12 +20,14 @@ This module adds some variables to hr_employee.
     Service Desk -> settings -> reports ; record:recipients
 
 ### Change log
+0.1.6
+    loaded on gilaneh
 
 15.1.5
 Prepared for git push.
 
 0.1.4
-Added hr.employee.pyblic class as a workaround for user rights
+Added hr.employee.public class as a workaround for user rights
 
 
 
