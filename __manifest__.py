@@ -10,14 +10,14 @@
     """,
 
     'author': "Arash Homayounfar",
-    'website': "https://github.com/odoo-app-dev/hr_extend",
+    'website': "https://github.com/gilaneh/hr_extend",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/14.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
     'category': 'Service Desk/Service Desk',
     'application': True,
-    'version': '0.1.6',
+    'version': '0.1.7',
 
     # any module necessary for this one to work correctly
     'depends': ['base', 'web','hr', ],

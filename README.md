@@ -19,7 +19,13 @@ This module adds some variables to hr_employee.
         he or she can receive presents of the building report.
     Service Desk -> settings -> reports ; record:recipients
 
+### sequence
+    It added a sequence field to the hr list view. It would be helpfull to change the 
+        sequence to contact list on the sd_contact modul.
+
 ### Change log
+0.1.7
+    sequence added
 0.1.6
     loaded on gilaneh
 
