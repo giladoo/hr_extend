@@ -11,7 +11,7 @@ class HrExtendEmployee(models.Model):
     employee_no = fields.Char(string='Emploee Number', )
     card_no = fields.Char(string='Card Number', )
     personal_email = fields.Char(help="private_email in hr")
-    sequence = fields.Integer(default=10)
+    sequence = fields.Integer(default=500)
 
 
 class HrExtendEmployeePublic(models.Model):
