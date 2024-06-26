@@ -13,6 +13,9 @@ class HrExtendEmployee(models.Model):
     personal_email = fields.Char(help="private_email in hr")
     sequence = fields.Integer(default=500)
 
+    # Translation
+    job_title = fields.Char(translate=True)
+
 
 class HrExtendEmployeePublic(models.Model):
     _inherit = "hr.employee.public"
@@ -23,3 +26,8 @@ class HrExtendEmployeePublic(models.Model):
 
 
 
+class HrExtendEmployeeResumeLine(models.Model):
+    _inherit = "hr.resume.line"
+
+    name = fields.Char(translate=True)
+    description = fields.Text(translate=True)

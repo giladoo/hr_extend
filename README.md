@@ -1,6 +1,13 @@
 # Odoo HR Extend (hr_extend)
 
 This module adds some variables to hr_employee.
+### Translation
+#### Employee
+    Job Title
+#### Resume
+    name
+    description
+
 
 ### employee_no
     it will be used as employee number which is used in many companies.
