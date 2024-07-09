@@ -11,6 +11,7 @@ class HrExtendEmployee(models.Model):
     employee_no = fields.Char(string='Emploee Number', )
     card_no = fields.Char(string='Card Number', )
     personal_email = fields.Char(help="private_email in hr")
+    tamin_number = fields.Char(help="Tamin Ejtemaee Number")
     sequence = fields.Integer(default=500)
 
     # Translation
