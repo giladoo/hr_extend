@@ -6,7 +6,7 @@ from odoo import fields, models, api
 
 class HrExtendEmployee(models.Model):
     _inherit = "hr.employee"
-    _order = 'sequence'
+    # _order = 'sequence'
 
     employee_no = fields.Char(string='Emploee Number', )
     card_no = fields.Char(string='Card Number', )
