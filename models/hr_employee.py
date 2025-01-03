@@ -17,7 +17,7 @@ class HrExtendEmployee(models.Model):
 
     # Translation
     job_title = fields.Char(translate=True)
-
+    name_cv = fields.Char(translate=True)
 
 class HrExtendEmployeePublic(models.Model):
     _inherit = "hr.employee.public"
