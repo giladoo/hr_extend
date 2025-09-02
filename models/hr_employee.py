@@ -16,8 +16,8 @@ class HrExtendEmployee(models.Model):
     sequence = fields.Integer(default=500)
 
     # Translation
-    job_title = fields.Char(translate=True)
-    name_cv = fields.Char(translate=True)
+    # job_title = fields.Char(translate=True)
+    name_cv = fields.Char()
 
 class HrExtendEmployeePublic(models.Model):
     _inherit = "hr.employee.public"
@@ -31,5 +31,5 @@ class HrExtendEmployeePublic(models.Model):
 class HrExtendEmployeeResumeLine(models.Model):
     _inherit = "hr.resume.line"
 
-    name = fields.Char(translate=True)
-    description = fields.Text(translate=True)
+    # name = fields.Char(translate=True)
+    # description = fields.Text(translate=True)

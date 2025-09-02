@@ -13,17 +13,17 @@
             </xpath>
             <xpath expr="//div[hasclass('oe_title')]/h1" position="after">
                 <h1 class="d-flex">
-                    <field name="name_cv" calss="" placeholder="CV Name"/>
+<!--                    <field name="name_cv" calss="" placeholder="CV Name"/>-->
                 </h1>
             </xpath>
-            <xpath expr="//field[@name='private_email']" position="after">
-                    <field name="personal_email" widget="email" />
+<!--            <xpath expr="//field[@name='private_email']" position="after">-->
+<!--                    <field name="personal_email" widget="email" />-->
 
-            </xpath>
-            <xpath expr="//field[@name='name']" position="before">
-                    <field name="sequence" widget="handle" />
+<!--            </xpath>-->
+<!--            <xpath expr="//field[@name='name']" position="before">-->
+<!--                    <field name="sequence" widget="handle" />-->
 
-            </xpath>
+<!--            </xpath>-->
         </field>
     </record>
 
